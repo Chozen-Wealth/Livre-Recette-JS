@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Style CSS personnel -->
+    <link rel="stylesheet" href="../style/style.css">
+    <!-- Style CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header-haut">
+        <h1>The Gary Restaurant</h1>
+    </header>
+    <!-- Nav -->
+    <nav id="nav" class="navbar sticky-top navbar-expand-lg bg-body-secondary shadow">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="../index.html" id="logo">GARY</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#titre-sections1">Nos plats</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#titre-sections2">Nos desserts</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#titre-sections3">Nos cocktails</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Menu Eestia</a>
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Catégories
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="1platsprincipaux.html">Plats Principaux</a></li>
+                    <li><a class="dropdown-item" href="2desserts.html">Desserts</a></li>
+                    <li><a class="dropdown-item" href="3cocktails.html">Cocktails</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- Section Héro - Carousel -->
+    <section id="hero">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="../style/images/miso_carousel.webp" height="700px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="../style/images/gyoza_carousel.webp" height="700px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../style/images/bento_carousel.webp" height="700px" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Première section Plats Principaux -->
+     
+    <h2 id="titre-sections1">Nos apéritifs</h2>
+    <section id="section1" class="d-flex justify-content-center section-gap flex-wrap py-5">
+        <div class="card" style="width: 18rem;">
+            <img src="../style/images/bento.webp" class="card-img-top" alt="bento">
+            <div class="card-body">
+              <h5 class="card-title">Bento Sushi Kawaii</h5>
+              <p class="card-text"> Des sushis trop mignons, décorés avec des petites faces adorables et des couleurs vives.</p>
+              <h4 id="ingrédient1">Ingrédients:</h4>
+              <ul>
+                  <li>Riz à sushi</li>
+                  <li>Nori(algue)</li>
+                  <li>Poisson cru(saumon,thon)</li>
+                  <li>Légumes(avocat,concombre)</li>
+              </ul>
+              <h4 id="recette1">Etape de préparation:</h4>
+              <ol>
+                  <li>Prépare le riz à sushi et laisse refroidir.</li>
+                  <li>Coupe les légumes et le poisson en tranches fines.</li>
+                  <li>Forme des petites boules ou des rectangles de riz.</li>
+                  <li>Ajoute des légumes et poissons pour créer un visuel mignon.</li>
+              </ol>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="../style/images/tartine.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tartines de fromage et légumes mignons</h5>
+              <p class="card-text">Du pain garni de fromage et de légumes découpés en formes rigolotes.</p>
+              <ul>
+                <li>Pain de mie</li>
+                <li>Fromage (type cheddar ou fromage frais)</li>
+                <li>Légumes (tomates, concombre, poivrons)</li>
+                <li>Couteau pour découper en formes</li>
+            </ul>
+            <h4 id="recette2">Etape de préparation:</h4>
+            <ol>
+                <li>Toaste les tranches de pain.</li>
+                <li>Étale le fromage sur chaque tranche.</li>
+                <li>Découpe les légumes en formes d'animaux.</li>
+                <li>Dispose les légumes sur le fromage de façon artistique.</li>
+            </ol>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="../style/images/brochette.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mini-brochettes de fruits kawaii</h5>
+              <p class="card-text">Des fruits colorés en petites brochettes, souvent décorés avec des yeux en chocolat.</p>
+              <h4 id="ingrédient3">Ingrédients:</h4>
+              <ul>
+                  <li>Fruits frais (fraises, raisins, kiwi, melon)</li>
+                  <li>Pics à brochettes</li>
+                  <li>Feutre alimentaire pour dessins (facultatif)</li>
+              </ul>
+              <h4 id="recette3">Etape de préparation:</h4>
+              <ol>
+                  <li>Coupe les fruits en morceaux égaux.</li>
+                  <li>Enfile les morceaux de fruits sur les pics.</li>
+                  <li>Décore les fruits avec un feutre alimentaire (facultatif).</li>
+                  <li>Servez les brochettes joliment disposées.</li>
+              </ol>
+            </div>
+          </div>
+    </section>
+    <!-- Deuxième section Desserts -->
+    <h2 id="titre-sections2">Nos entrées</h2>
+    <section id="section2" class="d-flex justify-content-center section-gap flex-wrap py-5">
+        <div class="card" style="width: 18rem;">
+            <img src="../style/images/miso.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Soupe miso en forme de lapin</h5>
+              <p class="card-text">Une soupe miso classique avec du tofu et des algues, présentée avec un lapin dessiné dessus.</p>
+              <h4 id="i4">Ingrédients:</h4>
+              <ul>
+                  <li>Soupe miso</li>
+                  <li>Tofu</li>
+                  <li>Légumes (oignons, algues)</li>
+                  <li>Découpoir en forme de lapin</li>
+              </ul>
+              <h4 id="r4">Etape de préparation:</h4>
+              <ol>
+                  <li>Prépare la soupe miso selon la recette classique.</li>
+                  <li>Coupe le tofu en petits morceaux, puis façonne-le en forme de lapin avec un découpoir.</li>
+                  <li>Ajoute le tofu dans la soupe chaude.</li>
+                  <li>Décore avec des légumes et des algues pour créer des détails.</li>
+              </ol>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="../style/images/salade.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Salade de légumes en forme d'animaux</h5>
+              <p class="card-text">Des légumes frais coupés et assemblés pour ressembler à des petits animaux adorables.</p>
+              <h4>Ingrédients:</h4>
+          <ul>
+              <li>Légumes frais (concombre, carottes, tomates cerise)</li>
+              <li>Couteau pour découper en formes</li>
+              <li>Feuilles de salade</li>
+              <li>Vinaigrette</li>
+          </ul>
+          <h4 id="r5">Etape de préparation:</h4>
+          <ol>
+              <li>Coupe les légumes en tranches fines.</li>
+              <li>Utilise un couteau pour découper les légumes en formes d'animaux.</li>
+              <li>Mélange les légumes découpés avec de la salade.</li>
+              <li>Ajoute une vinaigrette légère pour assaisonner.</li>
+          </ol>       
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="../style/images/gyoza.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Gyoza kawaii</h5>
+              <p class="card-text">De petits raviolis dorés avec des visages souriants dessinés à l'encre alimentaire.</p>
+              <h4 id="i6">Ingrédients:</h4>
+          <ul>
+              <li>Pâte à gyoza</li>
+              <li>Viande hachée (porc ou poulet)</li>
+              <li>Ciboulette, gingembre</li>
+              <li>Sauce soja</li>
+          </ul>
+          <h4 id="r6">Etape de préparation:</h4>
+          <ol>
+              <li>Mélange la viande hachée avec les épices et légumes.</li>
+              <li>Remplis les feuilles de pâte à gyoza avec la farce.</li>
+              <li>Plie les gyozas en forme de petits sachets ou animaux.</li>
+              <li>Fais cuire les gyozas à la vapeur ou à la poêle.</li>
+          </ol>      
+            </div>
+          </div>
+          </div>
+    </section>
+    <!-- Troisième section Cocktails -->
+    <h2 id="titre-sections3">Nos plats</h2>
+    <section id="section3" class="d-flex justify-content-center section-gap flex-wrap py-5">
+        <div class="card" style="width: 18rem;">
+            <img src="../style/images/curry.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bol de riz et curry en forme de panda</h5>
+              <p class="card-text">Du riz blanc modelé en panda, avec du curry autour pour le contraste.</p>
+              <ul>
+                <li>Riz à sushi</li>
+                <li>Curry japonais</li>
+                <li>Légumes (carottes, pommes de terre)</li>
+                <li>Algue nori (pour les détails du panda)</li>
+            </ul>
+            <h4 id="r7">Etape de préparation:</h4>
+            <ol>
+                <li>Cuis le riz à sushi et prépare le curry japonais.</li>
+                <li>Dispose le riz en forme de tête de panda dans un bol.</li>
+                <li>Ajoute le curry autour du riz pour former des contours.</li>
+                <li>Utilise nori pour créer les yeux et le nez du panda.</li>
+            </ol>          
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="../style/images/spaguetti.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Spaghetti avec des boulettes en forme d'animaux</h5>
+              <p class="card-text">Des boulettes de viande sculptées pour ressembler à des têtes d’animaux rigolos.</p>
+              <h4>Ingrédients:</h4>
+          <ul>
+              <li>Spaghetti</li>
+              <li>Viande hachée</li>
+              <li>Sauce tomate</li>
+              <li>Fromage râpé</li>
+          </ul>
+          <h4 id="r8">Etape de préparation:</h4>
+          <ol>
+              <li>Cuis les spaghetti.</li>
+              <li>Prépare les boulettes de viande et façonne-les en forme d'animaux.</li>
+              <li>Cuis les boulettes et mélange-les avec la sauce tomate.</li>
+              <li>Servez les pâtes avec les boulettes décorées.</li>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="../style/images/kitty.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bento Hello kitty</h5>
+              <p class="card-text">Un bento décoré aux couleurs de Hello Kitty, avec du riz façonné en son visage.</p>
+              <h4>Ingrédients:</h4>
+          <ul>
+              <li>Riz</li>
+              <li>Légumes (pois, carottes)</li>
+              <li>Poisson ou poulet</li>
+              <li>Nori (pour les détails)</li>
+          </ul>
+          <h4 id="r9">Etape de préparation:</h4>
+          <ol>
+              <li>Cuis le riz et forme-le en forme de tête de Hello Kitty.</li>
+              <li>Prépare les autres aliments (poisson, poulet, légumes).</li>
+              <li>Dispose les aliments dans le bento autour du riz.</li>
+              <li>Utilise des nori pour dessiner les détails du visage.</li>
+            </div>
+          </div>
+    </section>
+    <div class="d-grid gap-2">
+        <a href="https://eestia.github.io/Livre-de-recette/" class="btn btn-dark" role="button" aria-disabled="true">Site Eestia</a>
+      </div>
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">Gary Restaurant</h6>
+              <p>
+                Reçu le titre du meilleur restaurant du monde en 2023 2024 et 2025.
+              </p>
+              <h6 class="text-uppercase fw-bold mb-4">Nos réseaux sociaux :</h6>
+              <p><a class="text-reset" href="https://www.facebook.com/">Facebook</a> <a class="text-reset" href="https://www.instagram.com/">Instagram</a> <a class="text-reset" href="https://x.com/">Twitter</a></p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Nos produits
+              </h6>
+              <p>
+                <a href="#titre-sections1" class="text-reset">Nos apéritifs</a>
+              </p>
+              <p>
+                <a href="#titre-sections2" class="text-reset">Nos entrées</a>
+              </p>
+              <p>
+                <a href="#titre-sections3" class="text-reset">Nos plats</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Paiements
+              </h6>
+              <p>
+                <a href="./pages/tarifs-promo-commandes.html" class="text-reset">Tarifs</a>
+              </p>
+              <p>
+                <a href="./pages/tarifs-promo-commandes.html" class="text-reset">Promotions</a>
+              </p>
+              <p>
+                <a href="./pages/tarifs-promo-commandes.html" class="text-reset">Commandes à Domicile</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Nous Contacter</h6>
+              <p> MolenGeek, 1080 Molenbeek, Belgique</p>
+              <p>
+                info@garyrestaurant.com
+              </p>
+              <p>+ 01 234 567 88</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2025 Copyright - 
+        <a class="text-reset" href="https://mdbootstrap.com/">- Moustafa El Dehni -- Coding School 35</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Script JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

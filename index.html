@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Style CSS personnel -->
+    <link rel="stylesheet" href="./style/style.css">
+    <!-- Style CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header-haut">
+        <h1>The Gary Restaurant</h1>
+    </header>
+    <!-- Nav -->
+    <nav id="nav" class="navbar sticky-top navbar-expand-lg bg-body-secondary shadow">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="#header-haut" id="logo">GARY</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#titre-sections1">Nos plats</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#titre-sections2">Nos desserts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#titre-sections3">Nos cocktails</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/Eestia_menu.html">Menu Eestia</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Catégories
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./pages/1platsprincipaux.html">Plats Principaux</a></li>
+                  <li><a class="dropdown-item" href="./pages/2desserts.html">Desserts</a></li>
+                  <li><a class="dropdown-item" href="./pages/3cocktails.html">Cocktails</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- Section Héro - Carousel -->
+    <section id="hero">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://www.ithq.qc.ca/wp-content/uploads/2024/05/Resto_couple-mange-table-scaled.jpg" height="700px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://www.datocms-assets.com/44717/1726070182-restauration-traditionnelle.jpg?auto=format&fit=clip&h=1024" height="700px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://techcrunch.com/wp-content/uploads/2015/08/shutterstock_237882754.jpg" height="700px" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Première section Plats Principaux -->
+     
+    <h2 id="titre-sections1">Nos plats Principaux</h2>
+    <section id="section1" class="d-flex justify-content-center section-gap flex-wrap py-5">
+        <div class="card" style="width: 18rem;">
+            <img src="https://www.cookwithcampbells.ca/wp-content/uploads/sites/24/assets/recipes/medium/medium_934.jpg" class="card-img-top taille-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Poulet Champignons</h5>
+              <p class="card-text">Pâtes succulentes accompagnées d'un poulet aussi tendre qu'un poussin bio.</p>
+              <a href="./pages/p1-poulet.html" class="btn btn-warning">Découvrir la recette</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://assets.afcdn.com/recipe/20170306/63091_w1024h768c1cx2880cy1920.webp" class="card-img-top taille-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Saumon Épirnards</h5>
+              <p class="card-text">Saumon rose fumé posé sur son lit d'épinards. Muscles et force comme Popeye garantit !</p>
+              <a href="./pages/p1-saumon.html" class="btn btn-warning">Découvrir la recette</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.test-achats.be/sante/-/media/ta-hline/images/home/food%20and%20nutrition/healthy%20food/news/2020-and-before/steak%20frites/steak-frites-134169762.jpg?rev=9423913f-3541-4020-94a4-6e630cea4dc5&hash=6212A6D6DBCD370029F85044B0C58248" class="card-img-top taille-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Steak Frites</h5>
+              <p class="card-text">Steak à la cuisse de boeuf avec des frites du snack d'à côté.</p>
+              <a href="./pages/p1-steak.html" class="btn btn-warning">Découvrir la recette</a>
+            </div>
+          </div>
+    </section>
+    <!-- Deuxième section Desserts -->
+    <h2 id="titre-sections2">Nos Desserts</h2>
+    <section id="section2" class="d-flex justify-content-center section-gap flex-wrap py-5">
+        <div class="card" style="width: 18rem;">
+            <img src="https://www.galbani.fr/wp-content/uploads/2017/07/Tiramisu-belge-800x600.jpeg" class="card-img-top taille-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tiramisu</h5>
+              <p class="card-text">Un dessert pour bien se détendre. Rien de mieux qu'une spécialité Italienne.</p>
+              <a href="./pages/p2-tiramisu.html" class="btn btn-warning">Découvrir la recette</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.traiteurdeparis.co.uk/wp-content/uploads/Moelleux-chocolat-60g-mise-en-avant.jpg" class="card-img-top taille-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Fondant</h5>
+              <p class="card-text">Avec ce dessert, obligé tu fonds sur ta chaise. En manger beaucoup est bon pour la santé.</p>
+              <a href="./pages/p2-fondant.html" class="btn btn-warning">Découvrir la recette</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.cuisineactuelle.fr/imgre/fit/~1~cac~2018~09~25~1b118545-6aa9-4066-a6cb-57c66113666a.jpeg/650x365/quality/80/crop-from/center/tarte-bresilienne.jpeg" class="card-img-top taille-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Brésilienne</h5>
+              <p class="card-text">Impossible de ne pas craquer sur une Brésilienne.<br> PS : Je ne vous parle pas de femme ici.</p>
+              <a href="./pages/p2-bresilienne.html" class="btn btn-warning">Découvrir la recette</a>
+            </div>
+          </div>
+    </section>
+    <!-- Troisième section Cocktails -->
+    <h2 id="titre-sections3">Nos Cocktails</h2>
+    <section id="section3" class="d-flex justify-content-center section-gap flex-wrap py-5">
+        <div class="card" style="width: 18rem;">
+            <img src="https://www.1001cocktails.com/wp-content/uploads/1001cocktails/2023/03/118752_origin.jpg" class="card-img-top taille-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Punch Passion</h5>
+              <p class="card-text">Un must pour les gens qui ont besoin d'un petit coup de boost.</p>
+              <a href="./pages/p3-passion.html" class="btn btn-warning">Découvrir la recette</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.1001cocktails.com/wp-content/uploads/1001cocktails/2018/06/shutterstock_2181241651-scaled.jpg" class="card-img-top taille-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Gin Fizz</h5>
+              <p class="card-text"> L'enfoiré de Fizz de Gin, il est trop bon celui là.</p>
+              <a href="./pages/p3-fizz.html" class="btn btn-warning">Découvrir la recette</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.1001cocktails.com/wp-content/uploads/1001cocktails/2023/03/81649_origin-scaled-768x1152.jpg" class="card-img-top taille-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Americano</h5>
+              <p class="card-text">Ceci n'est pas un café.</p>
+              <a href="./pages/p3-americano.html" class="btn btn-warning">Découvrir la recette</a>
+            </div>
+          </div>
+    </section>
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">Gary Restaurant</h6>
+              <p>
+                Reçu le titre du meilleur restaurant du monde en 2023 2024 et 2025.
+              </p>
+              <h6 class="text-uppercase fw-bold mb-4">Nos réseaux sociaux :</h6>
+              <p><a class="text-reset" href="https://www.facebook.com/">Facebook</a> <a class="text-reset" href="https://www.instagram.com/">Instagram</a> <a class="text-reset" href="https://x.com/">Twitter</a></p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Nos produits
+              </h6>
+              <p>
+                <a href="#titre-sections1" class="text-reset">Plats Principaux</a>
+              </p>
+              <p>
+                <a href="#titre-sections2" class="text-reset">Desserts</a>
+              </p>
+              <p>
+                <a href="#titre-sections3" class="text-reset">Cocktails</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Paiements
+              </h6>
+              <p>
+                <a href="./pages/tarifs-promo-commandes.html" class="text-reset">Tarifs</a>
+              </p>
+              <p>
+                <a href="./pages/tarifs-promo-commandes.html" class="text-reset">Promotions</a>
+              </p>
+              <p>
+                <a href="./pages/tarifs-promo-commandes.html" class="text-reset">Commandes à Domicile</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Nous Contacter</h6>
+              <p> MolenGeek, 1080 Molenbeek, Belgique</p>
+              <p>
+                info@garyrestaurant.com
+              </p>
+              <p>+ 01 234 567 88</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2025 Copyright - 
+        <a class="text-reset" href="https://mdbootstrap.com/">- Moustafa El Dehni -- Coding School 35</a>
+      </div>
+      <!-- Copyright -->
+     
+    </footer>
+    <!-- Script JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

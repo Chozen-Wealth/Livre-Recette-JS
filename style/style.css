@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    height: 75px;
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* nav */
+
+#logo {
+    color: white;
+}
+
+.logo {
+    background-color: goldenrod;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border-bottom: 3px solid rgb(174, 133, 28);
+}
+
+.logo:hover {
+    background-color: goldenrod;
+    border: none;
+    border-top: 3px solid rgb(174, 133, 28);
+}
+
+/* DEBUT HERO */
+
+#hero img {
+    object-fit: cover;
+}
+
+/* SECTION 1 */
+
+#section-tarifs-promo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.section-gap {
+    gap: 5%;
+}
+
+.taille-image {
+    height: 14rem;
+    object-fit: cover;
+}
+
+section > div > .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+#titre-sections1 {
+    text-align: center;
+    padding-top: 60px;
+    border-bottom: 2px solid goldenrod;
+    padding-bottom: 20px;
+}
+#titre-sections2 {
+    text-align: center;
+    padding-top: 60px;
+    border-bottom: 2px solid goldenrod;
+    padding-bottom: 20px;
+}
+#titre-sections3 {
+    text-align: center;
+    padding-top: 60px;
+    border-bottom: 2px solid goldenrod;
+    padding-bottom: 20px;
+}
+
+/* DEBUT FOOTER */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer a {
+    color: rgb(129, 129, 129);
+    text-decoration: none;
+}
+
+footer > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+footer > div > p {
+    text-align: center;
+    align-content: center;
+}
+
+#bloc-socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    border-right: 1px solid gray;
+}
+
+#soustitre-socials {
+    display: flex;
+    justify-content: center;
+}
+
+#socials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#bloc-prix {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+#soustitre-prix {
+    display: flex;
+    justify-content: center;
+}
+
+#liste-prix {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+footer > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer section {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#liste-prix {
+    display: flex;
+    flex-direction: column;
+}
+
+/* FIN DU FOOTER */
+
