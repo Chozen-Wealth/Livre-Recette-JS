@@ -20,6 +20,16 @@ card.forEach( element => {
 card.forEach( element => {
     element.addEventListener("click", () => {
         element.style.boxShadow = "5px 5px 20px black";
+        let btnLien = document.querySelector(".btn");
+        const supprimer = document.createElement("button");
+        supprimer.style.backgroundColor = "red"
+        supprimer.style.width = "100px"
+        supprimer.innerText = "X"
+        let cardBody = document.querySelector(".card-body");
+        cardBody.append(supprimer)
+
+
+
     })
 })
 // Dblclick remove
@@ -38,14 +48,3 @@ btn.addEventListener("click", () => {
     }
 })
 
-let btnRecette = document.querySelectorAll(".btn-warning");
-let newElement = document.createElement("button");
-
-btnRecette.forEach( element =>
-    element.addEventListener("click", () => {
-        element.style.color = "blue";
-    })
-)
-
-
-document.btn.appendChild(newElement)
