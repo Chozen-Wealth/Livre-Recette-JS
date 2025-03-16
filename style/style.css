@@ -170,5 +170,11 @@ footer section {
     flex-direction: column;
 }
 
+.boxNewsletter > span {
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+}
+
 /* FIN DU FOOTER */
 
